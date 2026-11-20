@@ -1,0 +1,17 @@
+{
+  "id_estudiante": "11",
+  "semilla": 1011,
+  "huella_muestra": "22282eef00f8",
+  "variables_numericas": 24,
+  "componentes_pca_90": 15,
+  "varianza_retenida": 0.9049,
+  "costo_fp": 8,
+  "costo_fn": 35,
+  "umbral": 0.5,
+  "modelo_menor_costo": "A. Referencia (sin PCA, C=1,0)",
+  "ks_valor_flete": {
+    "D": 0.013346938775510298,
+    "p": 0.4206694940535485,
+    "decision_5pct": "no rechazar H₀"
+  }
+}
