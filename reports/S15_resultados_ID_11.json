@@ -1,0 +1,102 @@
+{
+  "laboratorio": "S15",
+  "id_estudiante": "11",
+  "semilla": 1011,
+  "timestamp_utc": "2026-11-20T22:59:56.452124+00:00",
+  "python": "3.13.18",
+  "sklearn": "1.6.1",
+  "huella_muestra": "22282eef00f8",
+  "n_train": 24500,
+  "n_valid": 5250,
+  "costo_fp": 8,
+  "costo_fn": 35,
+  "umbrales_optimos": {
+    "LR balanceada": 0.81,
+    "MLP (32)": 0.24,
+    "MLP (64, 32)": 0.16,
+    "MLP (128, 64, 32)": 0.2
+  },
+  "modelo_menor_costo": "LR balanceada",
+  "mejor_red": "MLP (64, 32)",
+  "costo_lr_umbral_optimo": 12146.0,
+  "costo_mejor_red_umbral_optimo": 12248.0,
+  "mejora_costo_pct": -0.84,
+  "exponente_tiempo": {
+    "LR balanceada": 0.941,
+    "MLP (64, 32)": 1.161
+  },
+  "metricas_validacion": {
+    "LR balanceada | Umbral 0,50": {
+      "Accuracy": 0.6539047619047619,
+      "Precision": 0.12280701754385964,
+      "Recall": 0.6704225352112676,
+      "F1": 0.20758831225468818,
+      "AP": 0.14464327598419688,
+      "ROC-AUC": 0.7050304277143966,
+      "Costo (R$)": 17695.0
+    },
+    "LR balanceada | Umbral óptimo": {
+      "Accuracy": 0.9255238095238095,
+      "Precision": 0.2692307692307692,
+      "Recall": 0.059154929577464786,
+      "F1": 0.09699769053117784,
+      "AP": 0.14464327598419688,
+      "ROC-AUC": 0.7050304277143966,
+      "Costo (R$)": 12146.0
+    },
+    "MLP (32) | Umbral 0,50": {
+      "Accuracy": 0.9323809523809524,
+      "Precision": 0.0,
+      "Recall": 0.0,
+      "F1": 0.0,
+      "AP": 0.08989885294333637,
+      "ROC-AUC": 0.5640806226531816,
+      "Costo (R$)": 12425.0
+    },
+    "MLP (32) | Umbral óptimo": {
+      "Accuracy": 0.9321904761904762,
+      "Precision": 0.42857142857142855,
+      "Recall": 0.008450704225352112,
+      "F1": 0.016574585635359115,
+      "AP": 0.08989885294333637,
+      "ROC-AUC": 0.5640806226531816,
+      "Costo (R$)": 12352.0
+    },
+    "MLP (64, 32) | Umbral 0,50": {
+      "Accuracy": 0.9323809523809524,
+      "Precision": 0.0,
+      "Recall": 0.0,
+      "F1": 0.0,
+      "AP": 0.11000688389953527,
+      "ROC-AUC": 0.6061356083384886,
+      "Costo (R$)": 12425.0
+    },
+    "MLP (64, 32) | Umbral óptimo": {
+      "Accuracy": 0.9243809523809524,
+      "Precision": 0.2375,
+      "Recall": 0.05352112676056338,
+      "F1": 0.08735632183908046,
+      "AP": 0.11000688389953527,
+      "ROC-AUC": 0.6061356083384886,
+      "Costo (R$)": 12248.0
+    },
+    "MLP (128, 64, 32) | Umbral 0,50": {
+      "Accuracy": 0.9323809523809524,
+      "Precision": 0.0,
+      "Recall": 0.0,
+      "F1": 0.0,
+      "AP": 0.1214891793454907,
+      "ROC-AUC": 0.6529220676459164,
+      "Costo (R$)": 12425.0
+    },
+    "MLP (128, 64, 32) | Umbral óptimo": {
+      "Accuracy": 0.9325714285714286,
+      "Precision": 1.0,
+      "Recall": 0.0028169014084507044,
+      "F1": 0.0056179775280898875,
+      "AP": 0.1214891793454907,
+      "ROC-AUC": 0.6529220676459164,
+      "Costo (R$)": 12390.0
+    }
+  }
+}
